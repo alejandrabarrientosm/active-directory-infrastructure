@@ -43,14 +43,51 @@ To create the Resource Group you choose the correct subscription, name your Reso
 <p align left>
 <img width="1210" height="1009" alt="Screenshot 2025-11-06 154216" src="https://github.com/user-attachments/assets/e597e939-f874-44ea-af85-be69c1f1e650" />
 
-  - For this lab we created a Resource Group, called Active-Directory-Lab.
-  <p align left>
-  <img width="525" height="143" alt="image" src="https://github.com/user-attachments/assets/6e151bf6-09af-4e50-8c1b-9ef0ac38984b" />
+After created the Resource Group, come back to your dashboard and click on Resource Group
+<p align left>
+<img width="803" height="376" alt="Screenshot 2025-11-25 122156" src="https://github.com/user-attachments/assets/870976e3-abd7-4c13-b946-1122185697e2" />
 
-- To create a Virtual NetworkCreate a Virtual Network and Subnet, called Active-Directory-Vnet
+For this lab we created a Resource Group, called Active-Directory-Lab.
+<p align left>
+<img width="525" height="143" alt="image" src="https://github.com/user-attachments/assets/6e151bf6-09af-4e50-8c1b-9ef0ac38984b" />
+
+- To create a Virtual Network, search in the search bar for Virtual Network, then click on Virtual Network. For this lab we are going to create a Virtual Network and Subnet, called Active-Directory-Vnet
   <p align left>
   <img width="517" height="145" alt="image" src="https://github.com/user-attachments/assets/52ec7ffb-7493-404d-a0bb-e66bf06fec23" />
-- Create the Domain Controller VM (Windows Server 2022) named “DC-1”
+  
+- To create a Virtual Machine
+After created the Resource Group you can continue with the second step which is creating a Virtual Machine, to do that you can click again the search bar and look for Virtual Machines or in the dashboard click on Virtual Machines.
+<p align left>
+<img width="586" height="203" alt="Screenshot 2025-11-25 123544" src="https://github.com/user-attachments/assets/429c2ec6-fb03-4ac5-826e-e3c874c3e540" />
+
+Choose the first option
+<p align left> 
+<img width="686" height="386" alt="Screenshot 2025-11-25 123917" src="https://github.com/user-attachments/assets/85acb37f-f7e0-42f5-b547-0f214d793d70" />
+
+Put in the appropriate subscription, in the resource group (Active-Directory-Lab) click on the one you just created, Choose a name for your Virtual Machine (Windows Server 2022), for Region choose the same you use in the Resource Group (Canada East), for Image use Windows Server 2022. Picture is just for reference
+</p>
+<img width="350" height="430" alt="Screenshot 2025-11-25 131103" src="https://github.com/user-attachments/assets/54a4c1c8-e74f-47a7-85a6-e534a3028954" />
+
+For size try to use 2vcpus for a faster deployment, create a username and password for the Virtual Machine and always make sure to click in Licensing
+
+<img width="311" height="326" alt="Screenshot 2025-11-25 132238" src="https://github.com/user-attachments/assets/03308153-0eea-4e95-97cd-f374847e0be9" />
+
+Then click next for Disks
+<p align left>
+<img width="311" height="326" alt="Screenshot 2025-11-25 132238" src="https://github.com/user-attachments/assets/3e668943-9da0-42da-9ab7-167e8dc161d0" />
+
+
+Click next for Network, then click on Review + Create 
+<p align left>
+<img width="393" height="455" alt="Screenshot 2025-11-25 133817" src="https://github.com/user-attachments/assets/6828c53e-21a4-460a-944f-655a575b8e18" />
+
+After validation passed, click on Create at the bottom of the page to initialize deployment of the Virtual Machine
+
+<p align left>
+<img width="451" height="454" alt="Screenshot 2025-11-25 134704" src="https://github.com/user-attachments/assets/413c969e-8f81-45de-a779-148ac91090c5" />
+
+
+- And that's how you create the Domain Controller Virtual Machine with Windows Server 2022 named “DC-1”
   <p align left>
   <img width="503" height="178" alt="image" src="https://github.com/user-attachments/assets/0f5cb5a4-bb33-4155-986c-e796fa16bcf3" />
 
